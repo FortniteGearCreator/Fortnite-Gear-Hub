@@ -167,4 +167,228 @@ body {
 }
 
 .gear-card h3 {
-    font-family: '
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.gear-card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+/* Blog Posts */
+.blog-posts {
+    padding: 60px 0;
+}
+
+.blog-posts h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #00ff88;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.post-card {
+    background-color: #2a2a2a;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 255, 136, 0.3);
+}
+
+.post-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.post-card p, .post-card ul {
+    margin-bottom: 15px;
+}
+
+.post-card ul li {
+    margin-left: 20px;
+}
+
+.post-card a {
+    color: #00ff88;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.post-card a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+/* Why Trust Us Section */
+.trust-us {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #1a3c34;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.trust-us h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #00ff88;
+    margin-bottom: 15px;
+}
+
+.trust-us p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+/* Newsletter Section */
+.newsletter {
+    background-color: #1f1f1f;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.newsletter h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #00ff88;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    width: 300px;
+    max-width: 100%;
+    border: 1px solid #00ff88;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    font-size: 1rem;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #00ff88;
+    color: #0d0d0d;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #fff;
+}
+
+.disclaimer {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+/* Sections */
+.section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #00ff88;
+    margin-bottom: 15px;
+}
+
+.section p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #333;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: #00ff88;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.social-links a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .post-card {
+        padding: 15px;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter-form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .gear-grid {
+        grid-template-columns: 1fr;
+    }
+}
