@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.hero {
+    background: linear-gradient(135deg, #1a3c34, #00ff88);
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #1f1f1f;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #00ff88;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #fff;
+}
+
+/* Blog Posts */
+.blog-posts {
+    padding: 40px 0;
+}
+
+.blog-posts h2 {
+    font-size: 2rem;
+    color: #00ff88;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.post-card {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+}
+
+.post-card h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.post-card p, .post-card ul {
+    margin-bottom: 15px;
+}
+
+.post-card a {
+    color: #00ff88;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.post-card a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+/* Sections */
+.section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2rem;
+    color: #00ff88;
+    margin-bottom: 15px;
+}
+
+.section p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #333;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .post-card {
+        padding: 15px;
+    }
+}
